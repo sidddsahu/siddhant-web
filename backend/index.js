@@ -37,7 +37,7 @@ const corsOptions = {
   origin: [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://siddhant-web.onrender.com" // ✅ REQUIRED FOR PRODUCTION
+    "https://siddhant-web-flqj.vercel.app" // ✅ REQUIRED FOR PRODUCTION
   ],
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"],
