@@ -1,6 +1,7 @@
 "use client";
-
+import Link from "next/link";
 import { motion } from "framer-motion";
+// import { Link } from "lucide-react";
 import {
   FaFacebookF,
   FaTwitter,
@@ -48,39 +49,49 @@ const Footer = () => {
         {/* Quick Links */}
         <div className="bg-[var(--card-bg)] border border-[var(--border)] rounded-2xl shadow-lg p-6">
           <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-          <ul className="space-y-3 text-sm">
-            {["Home", "About", "Services", "Projects", "Contact"].map(
-              (item) => (
-                <li
-                  key={item}
-                  className="cursor-pointer hover:text-[var(--accent)] transition"
-                >
-                  {item}
-                </li>
-              )
-            )}
-          </ul>
+
+             <nav className="space-x-4  flex flex-col gap-2">
+            <Link href="#hero" className="hover:text-yellow-400">
+              Home
+            </Link>
+
+            <Link href="#about" className="hover:text-yellow-400">
+              About
+            </Link>
+
+            <Link href="#project" className="hover:text-yellow-400">
+              Portfolio
+            </Link>
+
+            <Link href="#learning" className="hover:text-yellow-400">
+              Learning
+            </Link>
+
+          
+          </nav>
+
         </div>
 
         {/* Support */}
         <div className="bg-[var(--card-bg)] border border-[var(--border)] rounded-2xl shadow-lg p-6">
           <h3 className="text-lg font-semibold mb-4">Support</h3>
-          <ul className="space-y-3 text-sm">
-            {[
-              "FAQs",
-              "Testimonials",
-              "Blog",
-              "Privacy Policy",
-              "Terms & Conditions",
-            ].map((item) => (
-              <li
-                key={item}
-                className="cursor-pointer hover:text-[var(--accent)] transition"
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
+
+             <nav className="space-x-4  flex flex-col gap-2">
+
+
+            <Link href="#services" className="hover:text-yellow-400">
+              Services
+            </Link>
+
+            <Link href="#contact" className="hover:text-yellow-400">
+              Contact
+            </Link>
+
+            <Link href="/admin" className="hover:text-yellow-400">
+              Admin
+            </Link>
+          </nav>
+
         </div>
 
         {/* Contact */}

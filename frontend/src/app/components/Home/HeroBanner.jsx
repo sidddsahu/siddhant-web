@@ -90,7 +90,7 @@ const HeroBanner = () => {
   };
 
   return (
-    <section className="relative py-20 px-4 bg-[var(--bg)] text-[var(--text-color)] transition-all duration-500 border-b border-[var(--border)] overflow-hidden">
+    <section className="relative py-10 px-4 bg-[var(--bg)] text-[var(--text-color)] transition-all duration-500 border-b border-[var(--border)] overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-10 left-10 w-20 h-20 bg-[var(--accent)] opacity-10 rounded-full blur-xl"></div>
       <div className="absolute bottom-10 right-10 w-32 h-32 bg-[var(--accent)] opacity-5 rounded-full blur-2xl"></div>

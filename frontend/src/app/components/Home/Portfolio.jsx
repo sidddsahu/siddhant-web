@@ -69,7 +69,7 @@ export default function PortfolioSection() {
 
   if (loading) {
     return (
-      <section className="relative py-24 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
+      <section className="relative py-4 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-extrabold mb-4">
@@ -90,7 +90,7 @@ export default function PortfolioSection() {
 
   if (error) {
     return (
-      <section className="relative py-24 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
+      <section className="relative py-4 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-extrabold mb-4">
@@ -110,7 +110,7 @@ export default function PortfolioSection() {
   }
 
   return (
-    <section className="relative py-14 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
+    <section className="relative py-4 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
       {/* Glow */}
       <div className="absolute -top-20 -left-20 w-96 h-96 bg-[var(--accent)] opacity-20 blur-3xl rounded-full" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-500 opacity-20 blur-3xl rounded-full" />

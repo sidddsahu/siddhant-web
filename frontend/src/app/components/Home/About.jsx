@@ -64,7 +64,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="relative py-20 px-4  bg-[var(--bg)] text-[var(--text-color)] transition-colors duration-500 border-b border-[var(--border)] overflow-hidden">
+    <section className="relative py-4 px-4  bg-[var(--bg)] text-[var(--text-color)] transition-colors duration-500 border-b border-[var(--border)] overflow-hidden">
       {/* Animated Background Icons */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {animatedIcons.map((item) => (

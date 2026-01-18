@@ -369,7 +369,7 @@ const ServicesSection = () => {
   }
 
   return (
-    <section className="py-20 bg-[var(--bg)] text-white">
+    <section className="py-4 bg-[var(--bg)] text-white">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* HEADER */}
