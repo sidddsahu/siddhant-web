@@ -4,7 +4,7 @@
 // /* =========================
 //    API CONFIG
 // ========================= */
-// const API_URL = "https://siddhant-web.onrender.com//api/services";
+// const API_URL = "http://localhost:5000//api/services";
 
 // /* =========================
 //    ASYNC THUNKS (CRUD)
@@ -193,7 +193,7 @@ import axios from "axios";
 /* =========================
    API CONFIG
 ========================= */
-const API_URL = "https://siddhant-web.onrender.com/api/services";
+const API_URL = "http://localhost:5000/api/services";
 
 /* =========================
    ASYNC THUNKS (CRUD)

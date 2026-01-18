@@ -2,7 +2,7 @@
 // import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 // import axios from 'axios';
 
-// const API_URL = 'https://siddhant-web.onrender.com//api/contact';
+// const API_URL = 'http://localhost:5000//api/contact';
 
 // // Async thunk for submitting contact form
 // export const submitContact = createAsyncThunk(
@@ -84,7 +84,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "https://siddhant-web.onrender.com/api/contact";
+const API_URL = "http://localhost:5000/api/contact";
 
 /* ===================== SUBMIT CONTACT ===================== */
 export const submitContact = createAsyncThunk(

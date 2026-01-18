@@ -19,7 +19,7 @@ exports.createService = async (req, res) => {
 // READ ALL
 exports.getAllServices = async (req, res) => {
   try {
-    const services = await Service.find().sort({ createdAt: -1 });
+    const services = await Service.find().sort({ createdAt: 1 });
     res.status(200).json({
       success: true,
       count: services.length,
