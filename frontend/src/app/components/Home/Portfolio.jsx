@@ -328,7 +328,7 @@ export default function PortfolioSection() {
 
   if (loading) {
     return (
-      <section className="py-20 flex justify-center">
+      <section className="py-10 flex justify-center">
         <Loader2 className="animate-spin text-[var(--accent)]" size={50} />
       </section>
     );
@@ -336,14 +336,14 @@ export default function PortfolioSection() {
 
   if (error) {
     return (
-      <section className="py-20 text-center text-red-500">
+      <section className="py-10 text-center text-red-500">
         Failed to load projects
       </section>
     );
   }
 
   return (
-    <section className="relative py-20 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
+    <section className="relative py-10 bg-[var(--bg)] text-[var(--text-color)] overflow-hidden">
       {/* Header */}
       <div className="text-center mb-14 px-4">
         <h2 className="text-3xl md:text-4xl font-bold">

@@ -14,27 +14,27 @@ export default function Home() {
       <Header />
 
       {/* HERO */}
-      <section id="hero" className="pt-20">
+      <section id="hero"  className="pt-16" >
         <HeroBanner />
       </section>
 
       {/* ABOUT */}
-      <section id="about" className="pt-20">
-        <AboutSection />
+      <section id="about" >
+        <AboutSection/>
       </section>
 
       {/* PORTFOLIO */}
-      <section id="project" className="pt-20">
-        <PortfolioSection />
+      <section id="project" >
+        <PortfolioSection   />
       </section>
 
       {/* SERVICES / LEARNING */}
-      <section id="services" className="pt-20">
+      <section id="services" >
         <ServicesSection />
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="pt-20">
+      <section id="contact" >
         <ContactForm />
       </section>
 

@@ -63,11 +63,8 @@ const Footer = () => {
               Portfolio
             </Link>
 
-            <Link href="#learning" className="hover:text-yellow-400">
-              Learning
-            </Link>
 
-          
+
           </nav>
 
         </div>
@@ -78,6 +75,9 @@ const Footer = () => {
 
              <nav className="space-x-4  flex flex-col gap-2">
 
+ <Link href="#learning" className="hover:text-yellow-400">
+              Learning
+            </Link>
 
             <Link href="#services" className="hover:text-yellow-400">
               Services
@@ -86,10 +86,27 @@ const Footer = () => {
             <Link href="#contact" className="hover:text-yellow-400">
               Contact
             </Link>
-
+{/*
             <Link href="/admin" className="hover:text-yellow-400">
               Admin
-            </Link>
+            </Link> */}
+
+            {/*
+            <Link href="/admin" className="hover:text-yellow-400">
+              Admin
+            </Link> */}{/*
+            <Link href="/admin" className="hover:text-yellow-400">
+              Admin
+            </Link> */}{/*
+            <Link href="/admin" className="hover:text-yellow-400">
+              Admin
+            </Link> */}{/*
+            <Link href="/admin" className="hover:text-yellow-400">
+              Admin
+            </Link> */}{/*
+            <Link href="/admin" className="hover:text-yellow-400">
+              Admin
+            </Link> */}
           </nav>
 
         </div>

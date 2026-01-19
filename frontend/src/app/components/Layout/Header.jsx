@@ -55,7 +55,7 @@ export default function Header() {
           <Link href="#learning" className="hover:text-[var(--accent)]">Learning</Link>
           <Link href="#services" className="hover:text-[var(--accent)]">Services</Link>
           <Link href="#contact" className="hover:text-[var(--accent)]">Contact</Link>
-          <Link href="/admin" className="hover:text-[var(--accent)]">Admin</Link>
+          {/* <Link href="/admin" className="hover:text-[var(--accent)]">Admin</Link> */}
         </nav>
 
         {/* RIGHT SIDE */}
@@ -97,7 +97,7 @@ export default function Header() {
             ["Learning", "#learning"],
             ["Services", "#services"],
             ["Contact", "#contact"],
-            ["Admin", "/admin"],
+            // ["Admin", "/admin"],
           ].map(([label, link]) => (
             <Link
               key={label}
