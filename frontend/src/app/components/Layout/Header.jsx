@@ -59,11 +59,11 @@ export default function Header() {
         </nav>
 
         {/* RIGHT SIDE */}
-        <div className="flex items-center gap-3">
+        <div className="flex md:hidden items-center gap-3">
           {/* Theme Toggle */}
-          <button
+          {/* <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg bg-[var(--accent)] text-white hover:scale-105 transition"
+            className="p-2 rounded-lg bg-[var(--accent)] text-white  hover:scale-105 transition"
             aria-label="Toggle Theme"
           >
             {isDark ? (
@@ -71,12 +71,12 @@ export default function Header() {
             ) : (
               <SunIcon className="w-5 h-5" />
             )}
-          </button>
+          </button> */}
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden p-2 rounded-lg border border-[var(--border)]"
+            className=" p-2 rounded-lg border border-[var(--border)]"
           >
             {menuOpen ? (
               <XMarkIcon className="w-6 h-6" />
