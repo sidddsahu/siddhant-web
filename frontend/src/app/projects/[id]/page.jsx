@@ -138,7 +138,7 @@ export default function ProjectDetailPage() {
         <div className="mb-12">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 mb-8">
             <div>
-              <h1 className="text-4xl font-bold mb-4">{project.title}</h1>
+              <h1 className="text-2xl md: font-bold mb-4">{project.title}</h1>
               <p className="text-xl opacity-80 max-w-1xl">{project.description}</p>
             </div>
             <div className="flex flex-wrap gap-3">
